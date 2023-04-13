@@ -14,6 +14,8 @@
 		0C3DEAD729E6EDCE00309F4B /* SwiftUiCurrencyXchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DEAD629E6EDCE00309F4B /* SwiftUiCurrencyXchangeTests.swift */; };
 		0C3DEAE129E6EDCE00309F4B /* SwiftUiCurrencyXchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DEAE029E6EDCE00309F4B /* SwiftUiCurrencyXchangeUITests.swift */; };
 		0C3DEAE329E6EDCE00309F4B /* SwiftUiCurrencyXchangeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DEAE229E6EDCE00309F4B /* SwiftUiCurrencyXchangeUITestsLaunchTests.swift */; };
+		0C3DEAF029E6F4ED00309F4B /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DEAEF29E6F4ED00309F4B /* Currency.swift */; };
+		0C3DEAF229E6F73200309F4B /* XchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DEAF129E6F73200309F4B /* XchangeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0C3DEADC29E6EDCE00309F4B /* SwiftUiCurrencyXchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiCurrencyXchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3DEAE029E6EDCE00309F4B /* SwiftUiCurrencyXchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiCurrencyXchangeUITests.swift; sourceTree = "<group>"; };
 		0C3DEAE229E6EDCE00309F4B /* SwiftUiCurrencyXchangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiCurrencyXchangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C3DEAEF29E6F4ED00309F4B /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		0C3DEAF129E6F73200309F4B /* XchangeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XchangeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				0C3DEAC729E6EDCD00309F4B /* ContentView.swift */,
 				0C3DEAC929E6EDCE00309F4B /* Assets.xcassets */,
 				0C3DEACB29E6EDCE00309F4B /* Preview Content */,
+				0C3DEAEF29E6F4ED00309F4B /* Currency.swift */,
+				0C3DEAF129E6F73200309F4B /* XchangeViewModel.swift */,
 			);
 			path = SwiftUiCurrencyXchange;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C3DEAC829E6EDCD00309F4B /* ContentView.swift in Sources */,
+				0C3DEAF029E6F4ED00309F4B /* Currency.swift in Sources */,
 				0C3DEAC629E6EDCD00309F4B /* SwiftUiCurrencyXchangeApp.swift in Sources */,
+				0C3DEAF229E6F73200309F4B /* XchangeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
